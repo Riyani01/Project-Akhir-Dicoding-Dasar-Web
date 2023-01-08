@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BTS</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+		  .container{
+		    display: flex;
+			flex-direction;: column;
+			
+			width:270px;
+			height: 400px;
+			background-color: gray;
+			border: 2px white;
+			padding: 20px;
+			border-radius: 10px;
+			margin: 0 auto;
+	      }
+		  .box {
+		    flex-grow: 1;
+			
+			background-color: white;
+			margin: 5px;
+			border: 2px solid white;
+			border-radius: 10px;
+		  }
+		</style>
+			
+		
+	</head>
+    
+    <body>
+        <header>
+            <div class="jum">
+            <h1 style="text-shadow: 4px 4px 20px black;">ARMY BTS</h1>
+            </div>
+        <nav>
+            <ul>
+                <li><a href="#Beranda">Beranda</a></li>
+                <li><a href="#Hot News">Hot News</a></li>
+                <li><a href="#Kritik">Kritik, Saran & Request</a></li>
+            </ul>
+        </nav>
+        </header>
+		
+        <main>
+            <div id="content">
+        <article id="Beranda" class="card">
+            <h2 id="Beranda" class="z">Beranda</h2>
+			<p> Selamat datang di website BTS Army</p>
+            <p> Anda dapat mengupdate berita-berita terbaru dan terhot tentang BTS di setiap minggunya.</p>
+            <img src="https://th.bing.com/th/id/OIP.Mm-BvP7Vurpd_lzMIRkJdwHaD4?pid=ImgDet&rs=1" alt="foto1" width="300px">
+            <img src="https://pbs.twimg.com/media/DfsQ-IRVAAAMiWX.jpg:orig" alt="foto2" width="250px">
+        </article>
+            
+        
+        <article id="Hot News" class="card">
+            <h2 id="Hot News" class="z">Hot News</h2>
+			<h4> BTS Jadi Utusan Khusus</h4>
+            <figure>
+              <img src="https://www.passioninside.net/wp-content/uploads/2020/11/BTS-Dynamite-1.jpg" alt="bts member" width="300px">
+              <figcaption>BTS Member</figcaption>
+            </figure>
+  
+  
+            <p> Hi guys mimin punya hot news nih buat para BTS army dimanapun kalian berada. Kabarnya nih BTS terpilih menjadi utusan khusus. Bagaimana ceritanya yuk simak</p>
+            <blockquote cite="https://www.liputan6.com/showbiz/read/4612072/bts-ditunjuk-presiden-korea-selatan-moon-jae-in-jadi-utusan-khusus">
+            <p> Pengakuan yang diterima BTS tak sebatas di dunia musik atau hiburan saja, tapi juga soal kenegaraan. Mereka baru saja diberi tugas khusus oleh Presiden Korea Selatan, Moon Jae In.
+
+Diwartakan Yonhap News, J-Hope dkk ditunjuk sang Presiden sebagai utusan khusus dalam hal diplomasi publik pada hari ini, Rabu (21/7/2021).
+
+Juru bicara Cheong Wa Dae atau Gedung Biru, Park Kyung Mee, menjabarkan sejumlah tugas yang diberikan kepada sang pelantun "Permission to Dance" sebagai "utusan khusus kepresidenan untuk budaya dan generasi masa depan."</p>
+           <p>Salah satu tugas untuk BTS adalah menghadiri pertemuan penting tingkat internasional. Diwartakan KBS World, mereka juga akan menghadiri Sidang Umum PBB ke-76 pada September 2021.
+
+Park Kyung Mee mengatakan BTS akan mengirim pesan penghibur dan penuh harapan untuk anak muda di seluruh dunia. Mereka juga akan mengikuti beragam aktivitas terkait isu lingkungan, kemiskinan, ketidaksetaraaan, dan penghormatan atas keragaman.</p>
+           </blockquote>
+           <p> Woww hebat banget ya guys, makin bangga dan meleyottt kan?</p>
+       </article>
+  
+            
+        <article id="Kritik" class="card">
+            <h2 id="Kritik" class="z">Kritik, Saran & Request</h2>
+			<p>Kritik,Saran,Request : </p>
+           <ul>
+            <li>No Handphone: <a href="tlp">085712272208</a></li>
+            <li>Email: <a href="email" >  armybts06@gmail.com</a></li>
+            <li>Alamat Redaksi:<a href="alamat" >Jl. Pramuka No.100,Magelang</a></li>
+           </ul>
+            
+        </article>
+        </div>
+        <aside>
+            <article class="profil card">
+                <header>
+                <h2>Profil</h2>
+                <figure>
+                <img src="assets/img/profil.jpg" alt="foto">
+                <figcaption>Profil</figcaption>
+            </figure>
+            </header>
+            <section>
+                <h2>DATA DIRI :</h2>
+                <table>
+                   <tr>
+                      <th>Nama:</th>
+                      <td>May Linda Indriyani</td>
+                   </tr>
+                   <tr>
+                       <th>Jenis Kelamin:</th>
+                       <td>Perempuan</td>
+                   </tr>
+                   <tr>
+                      <th>TTL:</th>
+                      <td>Magelang,06 Mei 2001</td>
+                   </tr>
+            </table>
+             </section>
+			 <div class="container">
+			 <div class="box">
+			 <h3> DATA LAIN:</h3>
+			 <h5>Sekolah : STMIK AKAKOM YOGYAKARTA </h5>
+			 <h5>Hobby   : Coding </h5>
+			 </div>
+			 </div>
+			 
+            </article>
+        </aside>
+    </main>
+        <footer>
+		<p> Copyright &#169; 2021 Desained by MayLin</p>
+ 
+        </footer>
+
+        <script>
+            var card = document.getElementsByClassName("card");
+            console.log(card);
+            
+            var z = document.getElementsByClassName("z");
+            console.log(z);
+            setInterval(function(){
+                z[0].style.color = "maroon";
+                z[1].style.color = "maroon";
+                z[2].style.color = "maroon";
+
+            setTimeout(function(){
+                z[0].style.color = "#00a2c6";
+                z[1].style.color = "#00a2c6";
+                z[2].style.color = "#00a2c6";
+            }, 500)
+            }, 2500);
+        </script>
+		<script src="assets/maylin.js"></script>
+    </body>
+</html>
